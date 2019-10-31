@@ -131,6 +131,18 @@
           </div>
         </div>
       </div>
+
+       <!-- Portfolio Item 4 -->
+       <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="img/portfolio/ft.png" alt="">
+        </div>
+      </div>
       <!-- /.row -->
 
     </div>
@@ -290,8 +302,8 @@
                   </center>.
                   <!-- Portfolio Modal - Text -->
                   <p>
-                  <ol>
-                    <b><li>CREATE DATABASE</li></b>
+                  <ol start="1">
+                    <li><b>CREATE DATABASE</b></li>
                       <p>
                           Digunakan untuk membuat database baru.</br>
                           Syntax dasar:</br>
@@ -299,7 +311,7 @@
                           Contoh:</br>
                           CREATE DATABASE databaseku
                       </p>
-                    <b><li>SELECT</li></b>
+                    <li><b>SELECT</b></li>
                       <p>
                         Perintah SELECT merupakan perintah dasar SQL yang di gunakan untuk memilih data dari database. Data yang di kembalikan di simpan dalam tabel yang di sebut result-set.</br>
                         Contoh :</br>
@@ -308,21 +320,21 @@
                         SELECT * FROM siswa;</br>
                         Perintah pertama di atas di gunakan untuk menyeleksi kolom NIS, NAMA, dan ALAMAT dari tabel SISWA. sedangkan perintah kedua di gunakan untuk menyeleksi semua kolom dari tabel SISWA
                       </p>
-                    <b><li>ORDER BY</li></b>
+                    <li><b>ORDER BY</b></li>
                       <p>
                         Perintah ORDER BY merupakan perintah dasar SQL yang di gunakan untuk mengurutkan result-set dalam pengurutan ‘ascending’ atau ‘descending’. Secara default perintah ORDER BY menampilkan record dalam pengurutan ‘ascending’ (‘ASC’). Untuk mengurutkan ‘descending’, gunakan kata kunci ‘DESC’.</br>
                         Contoh :</br>
                         SELECT nis, nama FROM siswa ORDER BY tahun_lahir DESC;</br>
                         Perintah di atas akan menampilkan result-set berupa field NIS dan NAMA dari tabel SISWA dengan di urutkan berdasarkan TAHUN_LAHIR secara descending, artinya tahun lahir akan di tampilkan mulai dari yang terbesar (siswa termuda) hingga terkecil (siswa termuda).
                       </p>
-                    <b><li>UPDATE</li></b>
+                    <li><b>UPDATE</b></li>
                       <p>
                         Perintah UPDATE merupakan perintah dasar SQL yang di gunakan untuk memperbarui atau mengubah nilai suatu record berdasarkan kriteria tertentu.</br>
                         Contoh :</br>
                         UPDATE siswa SET nama = 'Anton', alamat = 'Bandung' WHERE nim = '12345';</br>
                         Perintah di atas di gunakan untuk memperbarui kolom NAMA menjadi ‘Anton’ dan kolom ALAMAT menjadi ‘Bandung’ pada record dengan NIM ‘12345’ (ingat sebelumnya NIM ‘12345’ di gunakan oleh siswa bernama ‘Dicky’ yang beralamat di ‘Klaten’, sebut saja data tersebut keliru dan harus di perbarui).</br>
                       </p>
-                    <b><li>DELETE</li></b>
+                    <li><b>DELETE</b></li>
                       <p>
                         Hampir sama dengan perintah UPDATE, perintah DELETE juga merupakan perintah dasar SQL yang di gunakan untuk menghapus nilai suatu record berdasarkan kriteria tertentu.</br>
                         Contoh :</br>
@@ -368,14 +380,14 @@
                 </div>
                 <!-- Portfolio Modal - Image -->
                 <center>
-                  <img class="img-fluid" src="img/portfolio/dll.png" alt="">
+                  <img class="img-fluid" src="img/portfolio/dll.jpgg" alt="">
                 </center>.
                 <!-- Portfolio Modal - Text -->
                 <p>DDL (Data Definition Language) yaitu kumpulan perintah pada SQL untuk menggambarkan desain dari database secara menyeluruh yang 
                     digunakan untuk membuat, merubah maupun menghapus struktur atau definisi tipe data dari obyek yang ada pada database.</p>
                 <p>Berikut adalah perintah-perintah pada DDL (Data Definition Language) :</p>
                   <ol>
-                    <b><li>PERINTAH CREATE</li></b>
+                    <li><b>PERINTAH CREATE</b></li>
                        <ul type="circle">
                           <li>Create database berfungsi untuk membuat database baru</li>
                           <li>Create function berfungsi untuk membuat fungsi pada database</li>
@@ -384,9 +396,9 @@
                           <li>Create Table yaitu perintah yang digunakan untuk membuat tabel baru pada database</li>
                           <li>Create Trigger berfungsi untuk membuat trigger pada database</li>
                        </ul></br>
-                    <b><li>PERINTAH UNTUK MERUBAH</li></b>
+                    <li><b>PERINTAH UNTUK MERUBAH</b></li>
                      <p>Alter Table yaitu perintah yang digunakan untuk merubah struktur dari sebuah table</p>
-                    <b><li>PERINTAH UNTUK MENGHAPUS</li></b>
+                    <li><b>PERINTAH UNTUK MENGHAPUS</b></li>
                       <ul type="circle">
                         <li>Drop Database yaitu perintah yang berfungsi untuk menghapus database (Contoh: DROP nama_databases;)</li>
                         <li>Drop Table yaitu perintah yang digunakan untuk menghapus tabel pada database</li>
@@ -438,16 +450,111 @@
                     menambah, menghapus dan menampilkan, perintah utamanya adalah seperti UPDATE, DELETE, INSERT, SELECT.</p>
                 <p>Berikut adalah perintah-perintah pada DML (Data Definition Language) :</p>
                   <ol>
-                    <b><li>INSERT</li></b>
+                    <li><b>INSERT</b></li>
                       <p>Berfungsi untuk menambah data atau record pada database</p>
-                    <b><li>DELETE</li></b>
+                    <li><b>DELETE</b></li>
                       <p>Berfungsi untuk menghapus data pada database</p>
-                    <b><li>UPDATE</li></b>
+                    <li><b>UPDATE</b></li>
                       <p>Perintah yang berfungsi untuk merubah maupun memperbarui data pada database</p>
-                    <b><li>SELECT</li></b>
+                    <li><b>SELECT</b></li>
                       <p>Perintah yang digunakan untuk menampilkan data dari suatu tabel pada database</p>
                   </ol>
 
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Full Text Search</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <center>
+                <img class="img-fluid" src="img/portfolio/ft.png" alt="">
+                </center>
+                <!-- Portfolio Modal - Text -->
+                  <p>Full Text Search  merupakan proses pencarian data pada database di MysSQL, full text search mengacu pada fungsionalitas yang terdapat pada database MySQL.</p></br>
+                  <div align = "left">
+                    <p ><b>Skenario</b></br>
+                      Tulisan ini menggunakan tabel article sebagai contoh untuk menggambarkan penggunaan 
+                      Full-text Searching di database MySQL, adapun struktur tabel article yang digunakan adalah 
+                      sebagai berikut :</br></p>
+                      <p>CREATE TABLE IF NOT EXISTS article (id int(10) NOT NULL AUTO_INCREMENT, title varchar(150) NOT NULL,
+                      body text NOT NULL, PRIMARY KEY (id))  ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;</p>
+
+                      <p>Adapun contoh data yang digunakan adalah sebagai berikut : </p>
+                      INSERT INTO `article` (`id`, `title`, `body`) VALUES</br>
+                      (1, 'PHP & Mysql : Tutorial Dasar', 'Pada tutorial kali ini, kita akan mencoba melakuka...'),</br>
+                      (2, 'MySQL - Pengenalan', 'Tutorial MySQL di situs ini memang buat kamu-kamu ...'),</br>
+                      (3, 'Mysql', 'Tutorial penggunaan database masa kini...'),</br>
+                      (4, 'Mysql & Oracle Database', 'Database masa kini...'),</br>
+                      (5, 'Implementasi Oracle', 'Bagaimana menggunakan oracle...'),</br>
+                      (6, 'SqlLite Database', 'Penggunaan SqlLite dan cpanel...'),</br>
+                      (7, 'let it be', 'by The Beatles...'); </p>
+                      <p>Pencarian data secara “konvensional” biasanya dilakukan dengan menggunakan perintah SQL LIKE.
+                      Contoh : pencarian artikel yang mengandung kata MySQL dapat dilakukan dengan perintah :</p>
+                      SELECT * FROM article WHERE title like'%mysql%'; 
+                      </p></br>
+                      <p><b>Implementasi</b></br>
+                        Full Text Searching dapat menjadi pilihan untuk melakukan fungsi pencarian pada 
+                        database MySQL. Syarat untuk dapat menjalankan fungsi Full Text Searching adalah dengan menambahkan index dengan
+                        tipe FULLTEXT pada field yang ingin dicari.</p>
+                        Berikut perintah untuk menambahkan Full Text Indexing pada field title dan body pada tabel article :
+                        ALTER TABLE article ADD FULLTEXT(title); </br>
+                        ALTER TABLE article ADD FULLTEXT(body, title); </br></p>
+                      <p>Berikut beberapa tipe penggunaan Full-Text Searching dengan menggunakan data contoh pada tabel article :</p></br>
+                      <ol>
+                        <li><b>Natural Language</b></li>
+                          <p>Secara default penggunaan Full-Text Searching termasuk dalam tipe Natural Language.</p>
+                        <li><b>Boolean</b></li>
+                        <p>Tipe Boolean mengijinkan penggunaan operator pada keyword pencarian seperti – atau +</br>
+                          Berikut daftar operator yang dapat digunakan :</p>
+                          <ul type="circle">
+                            <li>[non operator] secara default memiliki arti “atau” / “or” ;</li>
+                            <li>+ keyword harus terdapat pada semua hasil yang didapat;</li>
+                            <li>- keyword tidak boleh ada pada hasil yang didapat;</li>
+                            <li>> keyword termasuk pada hasil yang didapat dengan urutan berdasar ranking
+                              secara increase;</li>
+                            <li>< keyword termasuk pada hasil yang didapat dengan urutan berdasar ranking
+                              secara decrease;</li>
+                            <li>() digunakan untuk melakukan grouping/pengelompokan dan dapat menambahkan
+                              operator lain untuk meningkatkan relevansi hasil pencarian;</li>
+                            <li> ~ berfungsi sebagai operator negasi, jika sebuah keyword diberikan tanda ~,
+                              mengakibatkan relevansi/score minus;</li>
+                            <li>* merupakan operator wildcard;</li>
+                            <li>“ digunakan pada awal dan akhir keyword yang terdiri dari dua kata atau lebih.</li>
+                          </ul>
+                        <li><b>Query Expansion</b></li>
+                          <p>Query Expansion merupakan salah satu fitur yang biasa digunakan ketika pencarian hanya mengandung keyword yang sedikit (hanya satu kata).</p>
+                      </ol>
+                    </div>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
